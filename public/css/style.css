@@ -1,0 +1,25 @@
+body {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* header */
+#site-header .navbar {
+  border-radius: 0;
+  border: none;
+  margin: 0;
+}
+
+/* main section */
+#site-main {
+  padding: 50px 0;
+}
+
+/* footer */
+#site-footer {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 12px;
+  background: #222;
+  color: #999;
+}
