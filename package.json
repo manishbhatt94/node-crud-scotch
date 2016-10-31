@@ -1,0 +1,29 @@
+{
+  "name": "node-crud-scotch",
+  "version": "1.0.0",
+  "description": "just copy of code covered in \"Create a CRUD App with Node and MongoDB\" tutorial on scotch.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishbhatt94/node-crud-scotch.git"
+  },
+  "keywords": [
+    "scotch.io",
+    "tutorial",
+    "node",
+    "mongo",
+    "crud"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishbhatt94/node-crud-scotch/issues"
+  },
+  "homepage": "https://github.com/manishbhatt94/node-crud-scotch#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
