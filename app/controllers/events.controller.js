@@ -2,7 +2,7 @@
 
 module.exports = {
 
-	// show all events
+  // show all events
   showEvents: (req, res) => {
     // create dummy events
     const events = [
@@ -15,13 +15,13 @@ module.exports = {
     res.render('pages/events', { events: events });
   },
 
-    // show a single event
-    showSingle: (req, res) => {
-      // create dummy events
-      const event = { name: 'Basketball', slug: 'basketball', description: 'Throwing into a basket.' };
+  // show a single event
+  showSingle: (req, res) => {
+    // get a single event
+    const event = { name: 'Basketball', slug: 'basketball', description: 'Throwing into a basket.' };
 
-      // return a view with data
-      res.render('pages/single', { event: event });
-    }
+    // return a view with data
+    res.render('pages/single', { event: event });
+  }
 
 };
